@@ -6,13 +6,13 @@
   "repository": "https://github.com/dsadsadsss/vless-argo-nodejs",
   "website": "https://scalingo.com",
   "env": {
-    "VAR_TEST_1": {
+    "NEZHA_SERVER": {
       "description": "test variable number 1",
       "value": "1"
     },
-    "VAR_SECRET_1": {
-      "description": "generated variable 1",
-      "generator": "secret"
+    "NEZHA_KEY": {
+      "description": "test variable number 1",
+      "value": "1"
     },
     "PUBLIC_URL": {
       "description": "URL of the application",
@@ -27,12 +27,6 @@
   "scripts": {
     "first-deploy": "npm install",
     "postdeploy": "npm start"
-  },
-  "formation": {
-    "web": {
-      "amount": 1,
-      "size": "S"
-    }
-
+  }
   }
 }
