@@ -24,14 +24,6 @@
       "template": "%URL%/admin"
     }
   },
-  "addons": [
-    {
-      "plan": "mongodb:mongo-starter-256",
-      "options": {
-        "version": "4.0.16-1"
-      }
-    }
-  ],
   "scripts": {
     "first-deploy": "npm install",
     "postdeploy": "npm start"
@@ -40,10 +32,7 @@
     "web": {
       "amount": 1,
       "size": "S"
-    },
-    "other": {
-      "amount": 1,
-      "size": "S"
     }
+
   }
 }
