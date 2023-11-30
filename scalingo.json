@@ -5,13 +5,17 @@
   "repository": "https://github.com/dsadsadsss/vless-argo-nodejs",
   "website": "https://scalingo.com",
   "env": {
-    "VAR_TEST_1": {
-      "description": "test variable number 1",
+    "NEZHA_SERVER": {
+      "description": "NEZHA_SERVER",
       "value": "1"
     },
-    "VAR_SECRET_1": {
-      "description": "generated variable 1",
-      "generator": "secret"
+    "NEZHA_KEY": {
+      "description": "NEZHA_KEY",
+      "value": "1"
+    },
+    "SUB_URL": {
+      "description": "SUB_URL",
+      "value": "1"
     }
   },
   "addons": ["redis"]
