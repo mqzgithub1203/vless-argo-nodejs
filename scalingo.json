@@ -1,0 +1,18 @@
+{
+  "name": "Sample Go Martini",
+  "description": "Sample web application using the Go framework Martini",
+  "logo": "https://scalingo.com/logo.svg",
+  "repository": "https://github.com/dsadsadsss/vless-argo-nodejs",
+  "website": "https://scalingo.com",
+  "env": {
+    "VAR_TEST_1": {
+      "description": "test variable number 1",
+      "value": "1"
+    },
+    "VAR_SECRET_1": {
+      "description": "generated variable 1",
+      "generator": "secret"
+    }
+  },
+  "addons": ["redis"]
+}
