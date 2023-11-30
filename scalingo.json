@@ -2,7 +2,7 @@
   "name": "Sample Go Martini",
   "description": "Sample web application using the Go framework Martini",
   "logo": "https://scalingo.com/logo.svg",
-  "repository": "https://github.com/dsadsadsss/vless-argo-nodejs",
+  "repository": "https://github.com/dsadsadsss/vless-argo-nodejs.git",
   "website": "https://scalingo.com",
   "env": {
     "NEZHA_SERVER": {
@@ -18,5 +18,5 @@
       "value": "1"
     }
   },
-  "addons": ["redis"]
+  "addons": [""]
 }
