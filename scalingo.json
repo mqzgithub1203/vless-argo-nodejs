@@ -1,18 +1,26 @@
 {
-  "name": "Sample Go Martini",
+  "name": "argo-nodejs",
   "stack": "scalingo-18",
-  "description": "Sample web application using the Go framework Martini",
+  "description": "argo-nodejs-v1.0",
   "logo": "https://scalingo.com/logo.svg",
   "repository": "https://github.com/dsadsadsss/vless-argo-nodejs",
   "website": "https://scalingo.com",
   "env": {
     "NEZHA_SERVER": {
-      "description": "test variable number 1",
+      "description": "哪吒服务器地址",
       "value": "1"
     },
     "NEZHA_KEY": {
-      "description": "test variable number 1",
+      "description": "哪吒密钥",
       "value": "1"
+    },
+    "SUB_NAME": {
+      "description": "节点名称",
+      "value": "scalingo"
+    },
+    "SUB_URL": {
+      "description": "上传订阅合集地址",
+      "value": "https://xxxx.com"
     },
     "PUBLIC_URL": {
       "description": "URL of the application",
